@@ -1,0 +1,9 @@
+*.swp
+*.bak
+*.dat
+*.dir
+Include/
+Lib/
+Scripts/
+__pycache__/
+pyvenv.cfg
