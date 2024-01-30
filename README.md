@@ -5,7 +5,7 @@ This is based on IT1966 week 9 solution.
 
 # Instructions
 - git clone _this repository url_
-- cd SimpleWebApplication
+- cd it1966-webapp
 - python -m venv .
 
 ## Using Windows cmd.exe
