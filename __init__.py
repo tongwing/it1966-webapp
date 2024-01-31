@@ -75,9 +75,12 @@ def retrieve_users():
 @app.route('/retrieveCustomers')
 def retrieve_customers():
     customers_dict = {}
-    db = shelve.open('customer.db', 'r')
-    customers_dict = db['Customers']
-    db.close()
+    try:
+        db = shelve.open('customer.db', 'r')
+        customers_dict = db['Customers']
+        db.close()
+    except:
+        return render_template('retrieveCustomers.html', count=0, customers_list=[])
 
     customers_list = []
     for key in customers_dict:
