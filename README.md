@@ -1,7 +1,7 @@
 This is based on IT1966 week 9 solution.
 
 # Requirements
-- python 3.10 and above
+- python 3.11 and above
 
 # Instructions
 - git clone _this repository url_
